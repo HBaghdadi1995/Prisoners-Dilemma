@@ -15,7 +15,7 @@ A list of the skills demonstrated in the codebase.
 ## Instructions
 
 ### Running the Project
-Visual Studio is required to generate the executables, to generate them slect your configuration and platform and hit build or debug.
+Visual Studio is required to generate the executables, to generate them slect your configuration and platform and click on build or the local windows debugger.
 ### Getting Started
 When first started the user is provided with the option to choose to either generate strategies or generate them.
 ### Generating Strategies
