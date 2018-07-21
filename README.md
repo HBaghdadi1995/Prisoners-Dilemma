@@ -1,6 +1,6 @@
 # Prisoners-Dilemma
 
-## AIM OF SOFTWARE:
+## AIM OF SOFTWARE
 To read and write files that can be interpreted as diffirent strategies for approaching the "prisoner's dilemma".
 
 ## Skills Demonstarted
