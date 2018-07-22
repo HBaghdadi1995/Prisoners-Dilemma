@@ -414,7 +414,7 @@ void ReadSystem::matchGangsWithSpies(Gang& purple, Gang& megenta, int iter) {
 }
 
 int ReadSystem::askforNumberOfGames() {
-	cout << "how many itteration do you want to play?\n";
+	cout << "how many itterations do you want to play?\n";
 	int reply = u.replyWithInt();
 	return reply;
 }
