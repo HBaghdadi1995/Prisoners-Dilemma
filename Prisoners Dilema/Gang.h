@@ -43,8 +43,8 @@ public:
 	float getPermaScore() { return permaScore; }
 	int getPermaPrisonersCaught() { return permaPrisonersCaught; }
 
-	void setSpy(int i) { (prisoners.begin()+i)->setSpy(); }
-	void setLeader(int i) { (prisoners.begin() + i)->setLeader(); }
+	void setSpy(int i) { prisoners[i].setSpy(); }
+	void setLeader(int i) { prisoners[i].setLeader(); }
 	void flushSpies();
 
 	bool huntSpy();

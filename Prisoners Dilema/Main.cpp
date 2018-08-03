@@ -46,7 +46,8 @@ int main() {
 			reply = u.replyWithInt();
 			switch (reply) {
 			case 0:
-				cout << "To test Individual strategies press \"0\"...\nTo test gang Strategies press \"1\"...\nTo test gang strategies with spies and leader press \"2\"...\n";
+				cout << "To test Individual strategies press \"0\"...\nTo test gang Strategies press \"1\"...\n";
+				//cout << "To test gang strategies with spies and leader press \"2\"...\n";
 				reply = u.replyWithInt();
 				switch (reply) {
 				case 0:
@@ -59,15 +60,16 @@ int main() {
 					r.printGangSingleResults();
 					break;
 				case 2:
-					r.assignGangs();
-					//r.assignGangLeadersAndSpies();
+					/*r.assignGangs();
+					r.assignGangLeadersAndSpies();
 					r.testGangsWithSpiesSingle();
 					r.printSpyGangSingleResults();
-					break;
+					break;*/
 				}
 				break;
 			case 1:
-				cout << "To test Individual strategies press \"0\"...\nTo test gang Strategies press \"1\"...\nTo test gang strategies with spies and leader press \"2\"...\n";
+				cout << "To test Individual strategies press \"0\"...\nTo test gang Strategies press \"1\"...\n";
+				//cout <<	"To test gang strategies with spies and leader press \"2\"...\n";
 				reply = u.replyWithInt();
 				switch (reply) {
 				case 0:
@@ -80,11 +82,11 @@ int main() {
 					r.printGangResults();
 					break;
 				case 2:
-					r.assignGangs();
+					/*r.assignGangs();
 					r.assignGangLeadersAndSpies();
 					r.testGangsWithSpies();
 					r.printSpyGangResults();
-					break;
+					break;*/
 				}
 				break;
 			}
