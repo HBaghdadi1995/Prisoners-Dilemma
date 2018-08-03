@@ -10,6 +10,7 @@ A list of the skills demonstrated in the codebase.
 * File IO
 * Multi-threading
 * Script Interpretation and Parsing
+* Operator Overloading
 * basic C++ functionality (looping, memory management, data structures, etc...)
 
 ## Instructions
