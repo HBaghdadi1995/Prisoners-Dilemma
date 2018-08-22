@@ -59,7 +59,7 @@ int main() {
 					r.testGangsSingle();
 					r.printGangSingleResults();
 					break;
-				case 2:
+				//case 2:
 					/*r.assignGangs();
 					r.assignGangLeadersAndSpies();
 					r.testGangsWithSpiesSingle();
@@ -81,7 +81,7 @@ int main() {
 					r.testGangs();
 					r.printGangResults();
 					break;
-				case 2:
+				//case 2:
 					/*r.assignGangs();
 					r.assignGangLeadersAndSpies();
 					r.testGangsWithSpies();
